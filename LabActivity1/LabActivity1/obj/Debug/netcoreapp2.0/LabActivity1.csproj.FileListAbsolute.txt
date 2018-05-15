@@ -1,0 +1,11 @@
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\obj\Debug\netcoreapp2.0\LabActivity1.csprojResolveAssemblyReference.cache
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\obj\Debug\netcoreapp2.0\LabActivity1.csproj.CoreCompileInputs.cache
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\obj\Debug\netcoreapp2.0\LabActivity1.AssemblyInfoInputs.cache
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\obj\Debug\netcoreapp2.0\LabActivity1.AssemblyInfo.cs
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\bin\Debug\netcoreapp2.0\LabActivity1.deps.json
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\bin\Debug\netcoreapp2.0\LabActivity1.runtimeconfig.json
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\bin\Debug\netcoreapp2.0\LabActivity1.runtimeconfig.dev.json
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\bin\Debug\netcoreapp2.0\LabActivity1.dll
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\bin\Debug\netcoreapp2.0\LabActivity1.pdb
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\obj\Debug\netcoreapp2.0\LabActivity1.dll
+c:\users\navjit\Documents\GitHub\C#.NET-2\LabActivity1\LabActivity1\obj\Debug\netcoreapp2.0\LabActivity1.pdb
