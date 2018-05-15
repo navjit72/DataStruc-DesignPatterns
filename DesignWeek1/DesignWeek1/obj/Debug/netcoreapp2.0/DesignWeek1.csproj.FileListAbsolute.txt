@@ -1,0 +1,11 @@
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\obj\Debug\netcoreapp2.0\DesignWeek1.csprojResolveAssemblyReference.cache
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\obj\Debug\netcoreapp2.0\DesignWeek1.csproj.CoreCompileInputs.cache
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\obj\Debug\netcoreapp2.0\DesignWeek1.AssemblyInfoInputs.cache
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\obj\Debug\netcoreapp2.0\DesignWeek1.AssemblyInfo.cs
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\bin\Debug\netcoreapp2.0\DesignWeek1.deps.json
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\bin\Debug\netcoreapp2.0\DesignWeek1.runtimeconfig.json
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\bin\Debug\netcoreapp2.0\DesignWeek1.runtimeconfig.dev.json
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\bin\Debug\netcoreapp2.0\DesignWeek1.dll
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\bin\Debug\netcoreapp2.0\DesignWeek1.pdb
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\obj\Debug\netcoreapp2.0\DesignWeek1.dll
+c:\users\navjit\Documents\GitHub\C#.NET-2\DesignWeek1\DesignWeek1\obj\Debug\netcoreapp2.0\DesignWeek1.pdb

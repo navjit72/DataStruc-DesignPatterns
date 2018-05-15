@@ -1,0 +1,6 @@
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week2DesignClassActivity\Week2DesignClassActivity\bin\Debug\Week2DesignClassActivity.exe.config
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week2DesignClassActivity\Week2DesignClassActivity\bin\Debug\Week2DesignClassActivity.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week2DesignClassActivity\Week2DesignClassActivity\bin\Debug\Week2DesignClassActivity.pdb
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week2DesignClassActivity\Week2DesignClassActivity\obj\Debug\Week2DesignClassActivity.csprojResolveAssemblyReference.cache
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week2DesignClassActivity\Week2DesignClassActivity\obj\Debug\Week2DesignClassActivity.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week2DesignClassActivity\Week2DesignClassActivity\obj\Debug\Week2DesignClassActivity.pdb
