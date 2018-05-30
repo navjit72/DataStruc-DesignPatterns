@@ -1,0 +1,6 @@
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Assignment1-Navjit-Kaur-DesignPatterns\Assignment1-Navjit-Kaur-DesignPatterns\bin\Debug\Assignment1-Navjit-Kaur-DesignPatterns.exe.config
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Assignment1-Navjit-Kaur-DesignPatterns\Assignment1-Navjit-Kaur-DesignPatterns\bin\Debug\Assignment1-Navjit-Kaur-DesignPatterns.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Assignment1-Navjit-Kaur-DesignPatterns\Assignment1-Navjit-Kaur-DesignPatterns\bin\Debug\Assignment1-Navjit-Kaur-DesignPatterns.pdb
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Assignment1-Navjit-Kaur-DesignPatterns\Assignment1-Navjit-Kaur-DesignPatterns\obj\Debug\Assignment1-Navjit-Kaur-DesignPatterns.csprojResolveAssemblyReference.cache
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Assignment1-Navjit-Kaur-DesignPatterns\Assignment1-Navjit-Kaur-DesignPatterns\obj\Debug\Assignment1-Navjit-Kaur-DesignPatterns.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Assignment1-Navjit-Kaur-DesignPatterns\Assignment1-Navjit-Kaur-DesignPatterns\obj\Debug\Assignment1-Navjit-Kaur-DesignPatterns.pdb
