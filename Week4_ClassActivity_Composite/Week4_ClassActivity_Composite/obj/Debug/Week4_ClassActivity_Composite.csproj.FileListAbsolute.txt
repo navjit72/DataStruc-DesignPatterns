@@ -1,0 +1,6 @@
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Composite\Week4_ClassActivity_Composite\bin\Debug\Week4_ClassActivity_Composite.exe.config
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Composite\Week4_ClassActivity_Composite\bin\Debug\Week4_ClassActivity_Composite.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Composite\Week4_ClassActivity_Composite\bin\Debug\Week4_ClassActivity_Composite.pdb
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Composite\Week4_ClassActivity_Composite\obj\Debug\Week4_ClassActivity_Composite.csprojResolveAssemblyReference.cache
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Composite\Week4_ClassActivity_Composite\obj\Debug\Week4_ClassActivity_Composite.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Composite\Week4_ClassActivity_Composite\obj\Debug\Week4_ClassActivity_Composite.pdb

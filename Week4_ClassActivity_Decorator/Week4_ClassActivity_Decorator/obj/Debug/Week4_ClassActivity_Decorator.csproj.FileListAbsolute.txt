@@ -1,0 +1,6 @@
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Decorator\Week4_ClassActivity_Decorator\bin\Debug\Week4_ClassActivity_Decorator.exe.config
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Decorator\Week4_ClassActivity_Decorator\obj\Debug\Week4_ClassActivity_Decorator.csprojResolveAssemblyReference.cache
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Decorator\Week4_ClassActivity_Decorator\bin\Debug\Week4_ClassActivity_Decorator.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Decorator\Week4_ClassActivity_Decorator\bin\Debug\Week4_ClassActivity_Decorator.pdb
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Decorator\Week4_ClassActivity_Decorator\obj\Debug\Week4_ClassActivity_Decorator.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week4_ClassActivity_Decorator\Week4_ClassActivity_Decorator\obj\Debug\Week4_ClassActivity_Decorator.pdb
