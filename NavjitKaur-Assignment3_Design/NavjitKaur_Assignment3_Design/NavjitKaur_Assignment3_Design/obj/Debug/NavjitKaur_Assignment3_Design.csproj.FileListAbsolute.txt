@@ -1,0 +1,9 @@
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\NavjitKaur_Assignment3_Design\NavjitKaur_Assignment3_Design\bin\Debug\NavjitKaur_Assignment3_Design.exe.config
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\NavjitKaur_Assignment3_Design\NavjitKaur_Assignment3_Design\bin\Debug\NavjitKaur_Assignment3_Design.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\NavjitKaur_Assignment3_Design\NavjitKaur_Assignment3_Design\bin\Debug\NavjitKaur_Assignment3_Design.pdb
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\NavjitKaur_Assignment3_Design\NavjitKaur_Assignment3_Design\obj\Debug\NavjitKaur_Assignment3_Design.csprojResolveAssemblyReference.cache
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\NavjitKaur_Assignment3_Design\NavjitKaur_Assignment3_Design\obj\Debug\NavjitKaur_Assignment3_Design.FrmCalculator.resources
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\NavjitKaur_Assignment3_Design\NavjitKaur_Assignment3_Design\obj\Debug\NavjitKaur_Assignment3_Design.Properties.Resources.resources
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\NavjitKaur_Assignment3_Design\NavjitKaur_Assignment3_Design\obj\Debug\NavjitKaur_Assignment3_Design.csproj.GenerateResource.Cache
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\NavjitKaur_Assignment3_Design\NavjitKaur_Assignment3_Design\obj\Debug\NavjitKaur_Assignment3_Design.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\NavjitKaur_Assignment3_Design\NavjitKaur_Assignment3_Design\obj\Debug\NavjitKaur_Assignment3_Design.pdb
