@@ -9,27 +9,20 @@ namespace NavjitKaur_Assignment3_Design
     public class Calculator
     {
         public IState State { get; set; }
-
-        public double Add(double num1,double num2)
+      
+        public Calculator(IState state)
         {
-            State = new Add(num1,num2);
-            return State.Result();
-        }
-        public double Sub(double num1, double num2)
-        {
-            State = new Subtract(num1, num2);
-            return State.Result();
-        }
-        public double Mul(double num1, double num2)
-        {
-            State = new Multiply(num1, num2);
-            return State.Result();
-        }
-        public double Div(double num1, double num2)
-        {
-            State = new Divide(num1, num2);
-            return State.Result();
+            State = state;
         }
 
+        public double Calculate(double number1, double number2)
+        {
+            return State.Result(this,number1,number2);
+        }
+
+        public string Operation()
+        {
+            return State.GetOp();
+        }
     }
 }

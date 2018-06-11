@@ -12,8 +12,8 @@ namespace NavjitKaur_Assignment3_Design
 {
     public partial class FrmCalculator : Form
     {
-        double number1, number2,result;
-        Calculator calculate;
+        double number1, number2;
+        Calculator calculate = new Calculator(new Add());
         public FrmCalculator()
         {
             InitializeComponent();
@@ -30,6 +30,9 @@ namespace NavjitKaur_Assignment3_Design
             txtNumber1.Text = "Enter first number";
             txtNumber2.Clear();
             txtNumber2.Text = "Enter second number";
+            label1.Text = "Result";
+            label4.Text = "";
+            label5.Text = "";
         }
 
         private void txtNumber1_Enter(object sender, EventArgs e)
@@ -44,39 +47,24 @@ namespace NavjitKaur_Assignment3_Design
 
         private void FrmCalculator_Load(object sender, EventArgs e)
         {
-            calculate = new Calculator();
+            //calculate = null;
+            label5.Text = calculate.Operation();
         }
 
-        private void toolStripBtnAdd_Click(object sender, EventArgs e)
+        private void btnCalculate_Click(object sender, EventArgs e)
         {
-            number1 = Convert.ToDouble(txtNumber1.Text.ToString());
-            number2 = Convert.ToDouble(txtNumber2.Text.ToString());
-            result = calculate.Add(number1,number2);
-            MessageBox.Show("Addition result : " + result, "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void toolStripBtnSub_Click(object sender, EventArgs e)
-        {
-            number1 = Convert.ToDouble(txtNumber1.Text.ToString());
-            number2 = Convert.ToDouble(txtNumber2.Text.ToString());
-            result = calculate.Sub(number1, number2);
-            MessageBox.Show("Subtraction result : " + result, "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void toolStripBtnMul_Click(object sender, EventArgs e)
-        {
-            number1 = Convert.ToDouble(txtNumber1.Text.ToString());
-            number2 = Convert.ToDouble(txtNumber2.Text.ToString());
-            result = calculate.Mul(number1, number2);
-            MessageBox.Show("Multiplication result : " + result, "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void toolStripBtnDiv_Click(object sender, EventArgs e)
-        {
-            number1 = Convert.ToDouble(txtNumber1.Text.ToString());
-            number2 = Convert.ToDouble(txtNumber2.Text.ToString());
-            result = calculate.Div(number1, number2);
-            MessageBox.Show("Division result : " + result, "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            try
+            {
+                label5.Text = calculate.Operation();
+                number1 = Convert.ToDouble(txtNumber1.Text.ToString());
+                number2 = Convert.ToDouble(txtNumber2.Text.ToString());
+                label1.Text = calculate.Operation() + " : " + calculate.Calculate(number1, number2);
+                label4.Text = calculate.Operation();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Invalid values/Empty field not allowed", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

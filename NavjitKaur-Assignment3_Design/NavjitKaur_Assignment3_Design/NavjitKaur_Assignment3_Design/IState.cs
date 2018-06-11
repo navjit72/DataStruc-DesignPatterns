@@ -8,72 +8,66 @@ namespace NavjitKaur_Assignment3_Design
 {
     public interface IState
     {
-        double Result();
+        double Result(Calculator calculator,double num1, double num2);
+        string GetOp();
     }
 
     public class Add : IState
     {
-        private double number1;
-        private double number2;
-        public Add(double num1,double num2)
+        public double Result(Calculator calculator,double number1,double number2)
         {
-            number1 = num1;
-            number2 = num2;
-        }
-        public double Result()
-        {
+            calculator.State = new Subtract();
             return number1 + number2;
+        }
+
+        public string GetOp()
+        {
+            return "Add";
         }
     }
 
     public class Subtract : IState
     {
-        private double number1;
-        private double number2;
-        public Subtract(double num1, double num2)
+        public double Result(Calculator calculator,double number1, double number2)
         {
-            number1 = num1;
-            number2 = num2;
-        }
-        public double Result()
-        {
+            calculator.State = new Multiply();
             if (number1 > number2)
                 return number1 - number2;
             else
                 return number2 - number1;
         }
+        public string GetOp()
+        {
+            return "Subtract";
+        }
     }
 
     public class Multiply : IState
     {
-        private double number1;
-        private double number2;
-        public Multiply(double num1, double num2)
+        public double Result(Calculator calculator,double number1, double number2)
         {
-            number1 = num1;
-            number2 = num2;
-        }
-        public double Result()
-        {
+            calculator.State = new Divide();
             return number1 * number2;
+        }
+        public string GetOp()
+        {
+            return "Multiply";
         }
     }
 
     public class Divide : IState
     {
-        private double number1;
-        private double number2;
-        public Divide(double num1, double num2)
+        public double Result(Calculator calculator,double number1, double number2)
         {
-            number1 = num1;
-            number2 = num2;
-        }
-        public double Result()
-        {
+            calculator.State = new Add();
             if (number2 != 0)
                 return number1 / number2;
             else
                 throw new DivideByZeroException("Second number can not be zero");
+        }
+        public string GetOp()
+        {
+            return "Divide";
         }
     }
 
