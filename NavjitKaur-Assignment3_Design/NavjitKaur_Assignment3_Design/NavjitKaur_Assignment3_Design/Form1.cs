@@ -12,7 +12,7 @@ namespace NavjitKaur_Assignment3_Design
 {
     public partial class FrmCalculator : Form
     {
-        double number1, number2;
+        double number1, number2, result;
         Calculator calculate = new Calculator(new Add());
         public FrmCalculator()
         {
@@ -30,9 +30,6 @@ namespace NavjitKaur_Assignment3_Design
             txtNumber1.Text = "Enter first number";
             txtNumber2.Clear();
             txtNumber2.Text = "Enter second number";
-            label1.Text = "Result";
-            label4.Text = "";
-            label5.Text = "";
         }
 
         private void txtNumber1_Enter(object sender, EventArgs e)
@@ -45,25 +42,103 @@ namespace NavjitKaur_Assignment3_Design
             txtNumber2.Clear();
         }
 
-        private void FrmCalculator_Load(object sender, EventArgs e)
+        private RadioButton GetCheckedRadio(Control container)
         {
-            //calculate = null;
-            label5.Text = calculate.Operation();
+            foreach (var control in container.Controls)
+            {
+                RadioButton radio = control as RadioButton;
+
+                if (radio != null && radio.Checked)
+                {
+                    return radio;
+                }
+            }
+
+            return null;
         }
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             try
             {
-                label5.Text = calculate.Operation();
-                number1 = Convert.ToDouble(txtNumber1.Text.ToString());
-                number2 = Convert.ToDouble(txtNumber2.Text.ToString());
-                label1.Text = calculate.Operation() + " : " + calculate.Calculate(number1, number2);
-                label4.Text = calculate.Operation();
+                RadioButton radiobtn = GetCheckedRadio(groupBox);
+                if (radiobtn != null)
+                {
+                    if(radiobtn.Text.Equals("Add"))
+                    {
+                        try
+                        {
+                            
+                            number1 = Convert.ToDouble(txtNumber1.Text.ToString());
+                            number2 = Convert.ToDouble(txtNumber2.Text.ToString());
+                            calculate = new Calculator(new Add());
+                            result = calculate.Calculate(number1, number2);
+                            MessageBox.Show("Addition result : " + result, "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            
+                        }
+                        catch (Exception)
+                        {
+                            MessageBox.Show("Invalid values/Empty field not allowed", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else if (radiobtn.Text.Equals("Subtract"))
+                    {
+                        try
+                        {
+                            
+                            number1 = Convert.ToDouble(txtNumber1.Text.ToString());
+                            number2 = Convert.ToDouble(txtNumber2.Text.ToString());
+                            calculate = new Calculator(new Subtract());
+                            result = calculate.Calculate(number1, number2);
+                            MessageBox.Show("Subtraction result : " + result, "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            
+                        }
+                        catch (Exception)
+                        {
+                            MessageBox.Show("Invalid values/Empty field not allowed", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else if(radiobtn.Text.Equals("Multiply"))
+                    {
+                        try
+                        {
+                            
+                            number1 = Convert.ToDouble(txtNumber1.Text.ToString());
+                            number2 = Convert.ToDouble(txtNumber2.Text.ToString());
+                            calculate = new Calculator(new Multiply());
+                            result = calculate.Calculate(number1, number2);
+                            MessageBox.Show("Multiplication result : " + result, "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            
+                        }
+                        catch (Exception)
+                        {
+                            MessageBox.Show("Invalid values/Empty field not allowed", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else if(radiobtn.Text.Equals("Divide"))
+                    {
+                        try
+                        {
+                            
+                            number1 = Convert.ToDouble(txtNumber1.Text.ToString());
+                            number2 = Convert.ToDouble(txtNumber2.Text.ToString());
+                            calculate = new Calculator(new Divide());
+                            result = calculate.Calculate(number1, number2);
+                            MessageBox.Show("Division result : " + result, "Result", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            
+                        }
+                        catch (Exception)
+                        {
+                            MessageBox.Show("Invalid values/Empty field not allowed", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                }
+                else
+                    throw new Exception("Please select an operation");
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                MessageBox.Show("Invalid values/Empty field not allowed", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
