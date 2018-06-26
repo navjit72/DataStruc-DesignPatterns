@@ -1,0 +1,6 @@
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week7LabB\Week7LabB\bin\Debug\Week7LabB.exe.config
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week7LabB\Week7LabB\bin\Debug\Week7LabB.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week7LabB\Week7LabB\bin\Debug\Week7LabB.pdb
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week7LabB\Week7LabB\obj\Debug\Week7LabB.csprojResolveAssemblyReference.cache
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week7LabB\Week7LabB\obj\Debug\Week7LabB.exe
+C:\Users\NAVJIT\Documents\Visual Studio 2015\Projects\Week7LabB\Week7LabB\obj\Debug\Week7LabB.pdb
