@@ -1,1 +1,6 @@
 C:\Users\NAVJIT\Documents\GitHub\DataStruc-DesignPatterns\Encode-Decoder-Assignment\NavjitKaur-Assignment5\NavjitKaur-Assignment5\bin\Debug\NavjitKaur-Assignment5.exe.config
+C:\Users\NAVJIT\Documents\GitHub\DataStruc-DesignPatterns\Encode-Decoder-Assignment\NavjitKaur-Assignment5\NavjitKaur-Assignment5\bin\Debug\NavjitKaur-Assignment5.exe
+C:\Users\NAVJIT\Documents\GitHub\DataStruc-DesignPatterns\Encode-Decoder-Assignment\NavjitKaur-Assignment5\NavjitKaur-Assignment5\bin\Debug\NavjitKaur-Assignment5.pdb
+C:\Users\NAVJIT\Documents\GitHub\DataStruc-DesignPatterns\Encode-Decoder-Assignment\NavjitKaur-Assignment5\NavjitKaur-Assignment5\obj\Debug\NavjitKaur-Assignment5.csprojResolveAssemblyReference.cache
+C:\Users\NAVJIT\Documents\GitHub\DataStruc-DesignPatterns\Encode-Decoder-Assignment\NavjitKaur-Assignment5\NavjitKaur-Assignment5\obj\Debug\NavjitKaur-Assignment5.exe
+C:\Users\NAVJIT\Documents\GitHub\DataStruc-DesignPatterns\Encode-Decoder-Assignment\NavjitKaur-Assignment5\NavjitKaur-Assignment5\obj\Debug\NavjitKaur-Assignment5.pdb
